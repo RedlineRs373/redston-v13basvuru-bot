@@ -1,16 +1,16 @@
 {
-  "name": "gweepcreative",
+  "name": "basvuru-bot-aka-edizozturk",
   "version": "1.0.0",
-  "description": "Dev. Gweep Craetive & TunarDev",
-  "main": "server.js",
+  "description": "Dev. Xertz Code & RedStonDev",
+  "main": "xertz.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node xertz.js"
   },
   "dependencies": {
     "chalk": "^4.1.1",
     "discord-buttons": "^4.0.0",
     "discord-logs": "^1.9.0",
-    "discord.js": "^12.5.1",
+    "discord.js": "^12.5.3",
     "moment": "^2.29.1",
     "ms": "^2.1.3",
     "quick.db": "^7.1.3"
@@ -19,7 +19,7 @@
     "node": "16.x"
   },
   "repository": {
-    "url": "http://gweepcreative.com"
+    "url": "http://github.com/redliners373"
   },
   "license": "MIT"
 }

@@ -1,8 +1,8 @@
 echo off
-title basvur bot
-color c
+title Basvuru Bot Code Development redston
+color 0f
 cls
 :a
-node server.js
+node xertz.js
 goto a
 pause
