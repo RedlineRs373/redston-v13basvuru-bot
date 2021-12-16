@@ -4,7 +4,7 @@ const db = require('quick.db');
 const ayar = require('../ayarlar.json')
 exports.run = async (client, message, args) => { 
    const embed = new Discord.MessageEmbed()
-   .setTitle("Gweep yardım menüsü")
+   .setTitle("Xertz Code Yardım Menüsu")
    .addField("Yetkili Başvurusunda bulun",`\`${ayar.prefix}başvur\``)
   .addField("Başvuru sistemini aç/kapat",`\`${ayar.prefix}başvur-durum aç/kapat\``)
   .addField("Başvuramıyacak kişileri engelle",`\`${ayar.prefix}başvur-ban @kişi\``)

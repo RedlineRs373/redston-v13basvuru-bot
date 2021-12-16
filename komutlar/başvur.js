@@ -27,7 +27,7 @@ exports.run = async (client, message, args) => {
     '**Başka Sunucuda Yetkili Oldunuz Mu?** evet/hayır',
     '**Discord Platformunda Kaç Senedir Bulunuyorsunuz?** yıl',
     '**Üyelere hangi konuda destek vermeyi planlıyorunuz?** discord-destek / kod-destek',
-    '**Neden RabeL?** <cevabınız>'
+    '**Neden Xertz?** <cevabınız>'
   ]
   let sayac = 0
   
@@ -77,10 +77,10 @@ exports.run = async (client, message, args) => {
       `**Daha önceden Bilgisi var m?: **\t\t${collected.map(m => m.content).slice(2,3)}`,
       `**Kac Yıldır DC kullanıyor: **\t\t${collected.map(m => m.content).slice(3,4)}`,
 	  `**Üyelere hangi konuda destek vermeyi planlıyor: **\t\t${collected.map(m => m.content).slice(4,5)}`,
-      `**Neden RabeL: **\t\t${collected.map(m => m.content).slice(5,6)}`
+      `**Neden Xertz: **\t\t${collected.map(m => m.content).slice(5,6)}`
     ])
     .setTimestamp()
-    .setFooter('Developed by Gweep Creative', message.guild.iconURL());
+    .setFooter('Developed by Xertz - RedSton', message.guild.iconURL());
     client.channels.cache.get(ayar.yetkililog).send({
 		buttons: [onybuton, redbuton],
 	    embed: log}).then(async m => {

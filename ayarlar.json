@@ -1,12 +1,12 @@
 {
-  "prefix":".",
-  "token":"OTA5MDgzNjYwNjQ3NTU1MDgy.YY_IIg.YsOKQXPzDBnIzRyUOyElE6NIj6Q", 
-  "adminrol": "851072976170123295",
-  "kurucu":"851072976170123295",
-  "basvurkategori":"921107143413886977",
-  "onayred":"916997055396851742",
-  "yetkililog":"916997075642757200",
-  "everyoneid":"828232206442692608",
-  "yetkilirolid":"903294045865005147",
-  "sunucuid":"828232206442692608"
+  "prefix":"ISTEDIGINIZ PREFIX.",
+  "token":"TOKEN", 
+  "adminrol": "ADMIN ROL ID",
+  "kurucu":"KURUC ROL ID ADMIN ROL ID ILE AYNI OLABILIR",
+  "basvurkategori":"BASVURU KATEGORI ID",
+  "onayred":"ONAY-RED KANAL ID",
+  "yetkililog":"YETKILI-LOG KANAL ID",
+  "everyoneid":"EVERYONE ID - SUNUCU ID ILE AYNI.",
+  "yetkilirolid":"YETKI VERILECEK ROL ID",
+  "sunucuid":"SUNUCU ID - EVERYONE ID ILE AYNI."
 }
